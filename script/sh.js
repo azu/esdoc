@@ -7,7 +7,7 @@ function rm(path) {
 }
 
 function mkdir(path) {
-  fs.mkdirs(path);
+  fs.mkdirsSync(path);
 }
 
 function exec(cmd) {
